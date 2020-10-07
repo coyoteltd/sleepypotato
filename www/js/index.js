@@ -76,7 +76,7 @@ window.CordovaReady.then(function() {
             console.log("Start dinging at "+waketime+":00");
             console.log("Stop dinging at "+sleeptime+":00");
         }
-        if(scs===0 && mns===0 && hrs<sleeptime && hrs>waketime){
+        if(scs===0 && mns===0 && hrs<=sleeptime && hrs>=waketime){
             playAudio("/android_asset/www/media/01.wav");
             console.log("Ding!");
         }
