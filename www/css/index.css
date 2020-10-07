@@ -1,0 +1,52 @@
+@font-face {
+  font-family: PatrickHand;
+  src: url(fonts/PatrickHand-Regular.woff2);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(fonts/Lato-Regular.woff2);
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #9C2D09, #5B39F0);
+}
+
+.message {
+  postion:relative;
+  font-family:PatrickHand;
+  font-size:200%;
+  margin: auto;
+  width: 50%;
+}
+
+.clock {
+  position:relative;
+  font-family:Lato;
+  font-size:250%;
+  margin: auto;
+  width: 50%;
+
+}
+
+.picture {
+  position:relative;
+  padding-bottom:150px;
+  font-size:130%;
+}
+
+.picture select {
+  border: 0;
+  border-bottom: 2px solid #5B39F0;
+  padding-bottom:5px;
+  font-weight: bold;
+  height:32px;
+  width:180px;
+  font-size:120%;
+  letter-spacing: .15em;
+  border-radius: 0;
+}
+
+.picture img {
+  max-width:400px;
+}
